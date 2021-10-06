@@ -23,6 +23,7 @@ public class ProductDAO {
      * @return
      * @throws Exception 
      */
+    public static final String TEST_GIT_HEHE;
     public List<Product> getAll() throws Exception{
         DBContext dbContext = new DBContext();
         Connection connection = null;
